@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #212121;
+}
+
+.timer {
+  display: flex;
+  max-width: 600px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #212121;
+  border-radius: 2px;
+}
+.countdown-title {
+  display: flex;
+  justify-content: center;
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+.label{
+  padding-left: 20px;
+  display: flex;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+ 
+.field {
+  width: 100px;
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+}
+
+.value {
+  text-align: center;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 3px;
+  background: #00816a;
+  display: flex;
+}
